@@ -18,9 +18,7 @@ import java.util.List;
 
 public class CircularAdapter extends BaseAdapter {
     private static final String TAG = CircularAdapter.class.getSimpleName();
-    // TODO: change back
-//    private static final int MAX_VALUE = Integer.MAX_VALUE;
-    private static final int MAX_VALUE = 98;
+    private static final int MAX_VALUE = Integer.MAX_VALUE;
     private static final int HALF_MAX_VALUE = MAX_VALUE / 2;
 
     public final int MIDDLE;
